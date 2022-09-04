@@ -31,7 +31,7 @@
         </div>
         <template slot="sc-r-con">
           <ul>
-            <li v-for="(item, index) in hotAlbums">
+            <li v-for="(item, index) in hotAlbums" :key="index">
               <router-link :to="`/album?id=${item.id}`">
                 <img :src="item.blurPicUrl" alt="">
               </router-link>
@@ -79,14 +79,13 @@ export default {
   },
 
   methods: {
-    getAlbumMsgFunc(id) {
-      getAlbumMsg(id).then(res => {
-        this.album = res.album
-        this.songs = res.songs
-        getArtistAlbums(res.album.artist.id, 5, 0).then(res => {
-          this.hotAlbums = res.hotAlbums
-        })
-      })
+    async getAlbumMsgFunc(id) {
+      const res = await getAlbumMsg(id)
+      this.album = res.album
+      this.songs = res.songs
+
+      const res2 = getArtistAlbums(res.album.artist.id, 5, 0)
+      this.hotAlbums = res2.hotAlbums
     }
   },
 };

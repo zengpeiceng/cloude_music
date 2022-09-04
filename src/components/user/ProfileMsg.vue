@@ -226,14 +226,14 @@ export default {
         .c-d {
           position: relative;
         }
-        /deep/ .el-table {
+        ::v-deep .el-table {
           border: 1px solid #ccc;
           border-top: 0;
             &::before {
               height: 0;
             }
           }
-        /deep/ .el-table__body-wrapper {
+        ::v-deep .el-table__body-wrapper {
          
             .el-table__body {
               .el-table__cell {

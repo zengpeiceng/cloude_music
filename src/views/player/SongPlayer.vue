@@ -179,7 +179,7 @@ import  closeTargetEle  from 'utils/closeTargetEle.js'
       justify-content: center;
       width: 980px;
       color: rgb(232, 232, 232);
-      /deep/ .el-slider__button{
+      ::v-deep .el-slider__button{
         background: url('~assets/img/home/iconall.png');
         background-position: 0 -250px;
         border: none;
@@ -269,10 +269,10 @@ import  closeTargetEle  from 'utils/closeTargetEle.js'
         .barbg:focus-within {
           display: none;
         }
-        .barbg /deep/ .el-slider__bar {
+        .barbg ::v-deep .el-slider__bar {
           background-color: #C20C0C;
         }
-        .barbg /deep/ .is-vertical {
+        .barbg ::v-deep .is-vertical {
           margin-top: 15px;
         }
         .s-list-icon {
@@ -294,20 +294,20 @@ import  closeTargetEle  from 'utils/closeTargetEle.js'
             }
           }
         }
-        /deep/ .el-slider__runway {
+        ::v-deep .el-slider__runway {
           width: 4px;
         }
-        /deep/ .el-slider__bar {
+        ::v-deep .el-slider__bar {
           width: 4px;
         }
-        /deep/ .el-slider__button{
+        ::v-deep .el-slider__button{
           background: url('~assets/img/home/iconall.png');
           background-position: -40px -250px;
           border: none;
           width: 18px;
           height: 20px;
         }
-        /deep/ .el-slider__button-wrapper {
+        ::v-deep .el-slider__button-wrapper {
           width: 32px;
           height: 32px;
         }
@@ -331,11 +331,11 @@ import  closeTargetEle  from 'utils/closeTargetEle.js'
           top: 50%;
           bottom: 50%;
           margin: auto;
-          /deep/ .slider {
+          ::v-deep .slider {
             display: inline-block;
             width: 466px;
           }
-          /deep/ .el-slider__bar {
+          ::v-deep .el-slider__bar {
             background: url('~assets/img/audio/statbar.png');
             background-position: 0 -66px;
           }

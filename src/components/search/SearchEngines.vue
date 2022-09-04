@@ -218,7 +218,7 @@ export default {
     padding: 40px;
     border-left: 1px solid #d3d2d2;
     border-right: 1px solid #d3d2d2;
-    /deep/ .el-tabs__nav {
+    ::v-deep .el-tabs__nav {
       border: 1px solid #d3d2d2;
       border-radius: 0;
       background-color: #fff;
@@ -261,7 +261,7 @@ export default {
       }
   }
 }
-/deep/ .el-pagination {
+::v-deep .el-pagination {
     margin: 20px;
     text-align: center;
     ul {

@@ -93,7 +93,7 @@ export default {
 
 <style lang="scss" scoped>
 #qrLogin {
-  /deep/ .el-dialog {
+  ::v-deep .el-dialog {
     border-radius: 5px;
     width: 530px;
     height: 366px;

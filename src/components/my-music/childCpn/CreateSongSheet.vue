@@ -52,7 +52,7 @@ export default {
 
 <style lang="scss" scoped>
 #new {
-  /deep/ .el-dialog {
+  ::v-deep .el-dialog {
     border-radius: 5px;
     width: 480px;
     height: 249px;
@@ -98,7 +98,7 @@ export default {
       color: #999;
     }
   }
-  /deep/ .el-input {
+  ::v-deep .el-input {
     width: 85%;
   }
 }

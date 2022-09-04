@@ -6,8 +6,8 @@ export function request(config) {
     headers: {
       'Content-Type': 'application/json;charset=UTF-8',
     },
-    baseURL: 'http://localhost:3000',
-    // baseURL:'https://zengpeiceng.github.io/cloud_music/',
+    // baseURL: 'http://localhost:3000',
+    baseURL:'https://netease-cloud-music-api-mu-liard.vercel.app/',
     timeout: 5000,
   })
 

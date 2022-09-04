@@ -61,7 +61,7 @@ export default {
 
 <style lang="scss" scoped>
 #addSong {
-  /deep/ .el-dialog {
+  ::v-deep .el-dialog {
     border-radius: 5px;
     width: 450px;
     height: 414px;
@@ -145,7 +145,7 @@ export default {
           }
         }
   }
-  /deep/ .el-input {
+  ::v-deep .el-input {
     width: 85%;
   }
 }

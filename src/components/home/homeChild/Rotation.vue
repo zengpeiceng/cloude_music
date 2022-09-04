@@ -60,7 +60,7 @@ import {getBannerUrl} from 'network/home.js'
     max-width: 980px;
     margin: 0 auto;
   }
-  #bg-blur /deep/ .el-carousel {
+  #bg-blur ::v-deep .el-carousel {
     width: 77%;
     margin: 0 auto;
   }

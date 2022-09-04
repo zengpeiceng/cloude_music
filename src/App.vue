@@ -51,7 +51,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-  .in /deep/ .el-backtop {
+  .in ::v-deep .el-backtop {
     flex-direction: column;
     justify-content: space-evenly;
     border-radius: 3px;

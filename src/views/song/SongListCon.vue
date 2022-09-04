@@ -130,10 +130,10 @@ export default {
 <style lang="scss" scoped>
 
 #s-l-con {
-   /deep/ .el-table__cell {
+   ::v-deep .el-table__cell {
       padding: 5px 0;
     }
-    /deep/ .cell {
+    ::v-deep .cell {
       font-size: 12px;
     }
     

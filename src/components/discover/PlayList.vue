@@ -277,7 +277,7 @@ export default {
   .content {
     margin-top: 20px;
   }
-  /deep/ .el-pagination {
+  ::v-deep .el-pagination {
     margin: 20px;
     text-align: center;
     .el-pager {

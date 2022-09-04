@@ -151,7 +151,7 @@ export default {
     border: 1px solid #ccc;
     border-top: 0;
   }
-  /deep/ .el-table__body-wrapper {
+  ::v-deep .el-table__body-wrapper {
       .el-table__body {
         .el-table__cell {
           padding: 0;

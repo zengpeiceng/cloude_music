@@ -105,7 +105,7 @@ export default {
   }
   .top10 {
     margin: 20px 0;
-    /deep/ #singerMsg {
+    ::v-deep #singerMsg {
       padding-right: 12px;
       &:nth-child(5n) {
         padding-right: 0;

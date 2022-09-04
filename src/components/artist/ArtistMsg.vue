@@ -47,7 +47,6 @@
 
 <script>
 import SongListCon from 'views/song/SongListCon.vue';
-import AlbumList from 'components/search/childCpn/AlbumList'
 import SongAddition from 'views/song/SongAddition.vue';
 import { getArtistSongs, getArtistSimi, getArtistHot} from 'network/artist.js'
 
@@ -55,7 +54,7 @@ import { getArtistSongs, getArtistSimi, getArtistHot} from 'network/artist.js'
 
 export default {
   name: 'ArtistMsg',
-  components: {SongListCon, AlbumList, SongAddition},
+  components: {SongListCon, SongAddition},
   data() {
     return {
       aid: '',
@@ -119,6 +118,14 @@ export default {
     },
     // 获取相似歌手 
     getArtistSimiFunc(aid) {
+      // const simiArtists = await getArtistSimi(aid)
+      // this.simiArtist = simiArtists.artists
+
+      // if(simiArtists.artists.length ===0) {
+      //     // 没有相似歌手就请求热门歌手
+      //     const hotArtist = await getArtistHot()
+      //     this.hostArtist = hotArtist.artists
+      // }
       getArtistSimi(aid).then(res => {
         this.simiArtist = res.artists
         if(res.artists.length ===0) {
@@ -166,7 +173,7 @@ export default {
         object-position: center;
       }
     }
-    /deep/ [data-v-809d416a] li {
+    ::v-deep [data-v-809d416a] li {
       padding-right: 18px;
       div {
         img:nth-child(1) {

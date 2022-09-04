@@ -76,7 +76,7 @@
           border-left: 1px solid rgb(161, 161, 161);
           transform: rotate(-45deg);
         }
-        /deep/ .el-textarea__inner {
+        ::v-deep .el-textarea__inner {
           border-color: rgb(161, 161, 161);
         }
         .comment-btn {
