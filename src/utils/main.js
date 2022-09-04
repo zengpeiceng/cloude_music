@@ -7,8 +7,8 @@ export function request(config) {
       'Content-Type': 'application/json;charset=UTF-8',
     },
     // baseURL: 'http://localhost:3000',
-    // baseURL: 'https://cloud-music-zengpeiceng.vercel.app/'
-    baseURL:'https://netease-cloud-music-api-mu-liard.vercel.app/',
+    baseURL: 'https://cloud-music-zengpeiceng.vercel.app/',
+    // baseURL:'https://netease-cloud-music-api-mu-liard.vercel.app/',
     timeout: 5000,
   })
 
