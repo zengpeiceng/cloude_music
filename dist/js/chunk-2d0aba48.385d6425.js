@@ -1,2 +1,0 @@
-(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d0aba48"],{"15c1":function(n,e,t){"use strict";t.r(e);var u=function(){var n=this,e=n.$createElement,t=n._self._c||e;return t("div",[n._v("\n  我的电台\n")])},a=[],c={name:"MyRideo",data:function(){return{}},mounted:function(){},methods:{}},o=c,i=t("2877"),r=Object(i["a"])(o,u,a,!1,null,"4229f494",null);e["default"]=r.exports}}]);
-//# sourceMappingURL=chunk-2d0aba48.385d6425.js.map
