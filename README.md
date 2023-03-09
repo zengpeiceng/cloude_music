@@ -1,24 +1,15 @@
-# cloud_music
-
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+# 网易云音乐PC项目实战
+## 项目简介
+1. 项目介绍
+  * 项目使用的技术
+    - 采用 vue-cli 脚手架进行项目构建，并使用 git 进行代码版本管理。
+    - 使用 Element 组件库以及 html+css 进行网页布局和美化。
+    - 使用 Vue Router 实现页面之间的跳转。
+    - 使用 Axios 实现前后端交互，实现页面的渲染和数据的提交
+    - 使用vuex进行全局状态管理
+    - 使用propType校验props类型及默认值
+    - 项目中的优化: 函数防抖；对不常变的数据进行缓存；大量数据采用分页加载；使用vue-lazyload进行图片懒加载提升显示的体验
+ 2. 项目目标
+    * 使用Vue全家桶开发网易云音乐PC网站
+ 3. 页面效果和功能展示
+  * 首页
